@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+
+}
+
+header{
+    
+    min-height: 80px;
+    text-align: center;
+    
+    
+}
+
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;;
+    color: black;
+    font-size: 4em;
+}
+
+.container{
+    background-color: rgb(59, 59, 59);
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+
+.game{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(59, 59, 59);
+    font-size: 10em;
+    padding: 20px;
+    display: flex;
+    border-radius: 6px;
+  
+}
+
+.border-rock{
+    border: 5px solid white;
+    border-radius: 22rem;
+    margin: 20px;
+}
+
+.border-scissors{
+    border: 5px solid white;
+    border-radius: 22rem;
+    margin: 20px;
+}
+
+.border-paper{
+    border: 5px solid white;
+    border-radius: 22rem;
+    margin: 20px;
+}
+
+.game i{
+    padding: 20px;
+    margin: 50px;
+}
+.screen{
+    color: white;
+    text-align: center;
+
+    font-size: 3em;
+    padding: 100px;
+   
+}
+
+
+.game i:hover{
+    color:#3399ff;
+    cursor: pointer;
+}
+
+.win{
+    border: 10px solid green;
+    transition: all .1s;
+}
+
+.lost{
+
+    border: 10px solid red;
+    transition: all .1s;
+}
+
+
+.cpu{
+    background-color: #3399ff;
+    color:white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cpu h1{
+    font-size: 3rem;
+    padding-left: 20px;
+}
+
+button{
+
+    position: absolute;
+    top: 80%;
+    left: 42%;
+    padding: 2em 5em;
+    font-size: 25px;
+    cursor: pointer;
+    letter-spacing: 3px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+    color: rgb(255, 255, 255);
+   border: 3px solid #3399ff;;
+
+
+  transition: all .2s ease-in-out;
+
+}
+
+button:hover{
+
+    background-color: #3399ff;;
+    color: white;
+   
+}
+
+#ro{
+
+    font-size: 1em;
+}
+
+#cpuplay{
+    color:white;
+}
